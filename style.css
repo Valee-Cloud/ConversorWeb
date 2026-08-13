@@ -8,6 +8,7 @@ input, label, button {
     margin: auto;
     padding: 5px;
     color: black;
+    border-radius: 10px;
 }
 
 p {
@@ -18,5 +19,5 @@ p {
 
 div {
     color: black;
-    
+    border-radius: 10px;
 }
