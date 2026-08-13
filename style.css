@@ -2,10 +2,16 @@ body {
     background: white;
 }
 
+footer {
+    margin-left: 650px;
+    margin-top: 300px;
+}
+
 input, label, button {
     font-family: Arial, sans-serif;
     font-weight: 100;
-    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     color: black;
     border-radius: 5px;
@@ -26,3 +32,4 @@ div {
 h1, h2 {
     font-family: Arial, sans-serif;
 }
+
