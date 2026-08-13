@@ -4,11 +4,12 @@ body {
 
 input, label, button {
     font-family: Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 100;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     color: black;
-    border-radius: 10px;
+    border-radius: 5px;
+    border-color: black;
 }
 
 p {
@@ -20,4 +21,8 @@ p {
 div {
     color: black;
     border-radius: 10px;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
 }
