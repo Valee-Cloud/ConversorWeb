@@ -4,6 +4,8 @@ const worker= new Worker ("worker.js");
 
 //Evento del click (botón de convertir)
 
+//Evento enviar al worker
+
 //Geolocalización
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((pos)=> {
