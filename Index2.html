@@ -7,30 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="Assets/Logo.png" alt="Logo de nuestro sitio web">
+    <img id="logo" src="Assets/Logo.png" alt="Logo de nuestro sitio web">
 
     <h1>Formulario de Satisfacción al Usuario</h1>
 
     <p>La satisfacción de nuestros usuarios es fundamental para nosotros. Por eso, hemos creado este formulario para conocer tu experiencia con nuestro conversor de kilómetros a millas y nuestras funciones de geolocalización. Tus opiniones, sugerencias y comentarios nos ayudan a mejorar continuamente la precisión, facilidad de uso y calidad de nuestros servicios. Completar la encuesta solo te tomará unos minutos y contribuirá a que podamos ofrecer una experiencia cada vez más útil y eficiente para todos nuestros visitantes</p>
-
+    
     <form action="">
-    <label for="name">Nombre Completo: </label><br>
-    <input type="name" name="name" placeholder="Ej: José Pérez Mora"><br>
+        <label for="name">Nombre Completo/ Usuario:</label><br>
+        <input type="name" id="name" placeholder="Ej: José Pérez Mora"><br><br>
 
-    <label for="age">Edad: </label><br>
-    <input type="number" name="age" placeholder="(0-99)"><br>
+        <label for="age">Edad (0-99):</label> <br>
+        <input type="number" id="age" placeholder="Elegir edad"><br><br>
 
-    <label for="email">Correo Electrónico: </label><br>
-    <input type="email" name="email" placeholder="info@gmail.com"><br>
+        <label for="email">Correo Electrónico:</label> <br>
+        <input type="email" id="email" placeholder="Ej: ina@gmail.com"><br><br>
 
-    <label for="">Nivel de satisfacción con el sitio web: </label><br>
-    <input type="" name="" placeholder="Muy satisfech@"><br>
+        <label for="satisfaccion">Nivel de Satisfacción:</label><br>
+        <input type="checkbox" id="satisfaccion">Muy Satisfech@ <br>
 
-    <label for="text">Nos interesa tu opinión sobre nuestro sitio web, deja acá tu comentario: </label><br>
-    <input type="text" name="text" placeholder="Comentario"><br><br>
+        <label for="satisfaccion"></label> <br>
+        <input type="checkbox" id="satisfaccion">Satisfech@ <br>
 
-    <button onclick="enviarformulario">Enviar Formulario</button>
-    </form><br><br>
+        <label for="satisfaccion"></label> <br>
+        <input type="checkbox" id="satisfaccion">Poco Satisfech@ <br>
+
+        <label for="recomendacion">¿Recomendaría usted este sitio web?:</label><br>
+        <input type="checkbox" id="recomendacion">Sí <br>
+
+        <label for="recomendacion"></label><br>
+        <input type="checkbox" id="recomendacion">No <br>
+
+    </form>
+
+    <button type="submit"><a href="Index.html"></a>Enviar Formulario</button>
 
     <script src="script.js"></script>
 </body>
