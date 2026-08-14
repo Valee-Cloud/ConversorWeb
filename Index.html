@@ -3,29 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor Web</title>
+    <title>Conversor Km a Mi</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <h1>Bienvendi@s al Conversor de kilometros a millas</h1>
-    <img src="" alt="Logo de nuestro sitio web">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nam ullam, ipsam sequi possimus eius tenetur repudiandae ipsa ducimus iste odit accusamus odio, qui obcaecati ratione quas veniam hic beatae!</p>
+    <h1>Bienvendi@s al Conversor de Km -> Mi</h1>
+    <img src="Assets/Logo.png" alt="Logo de nuestro sitio web">
+    <p>Convierte kilómetros a millas de forma rápida, precisa y gratuita con nuestra herramienta en línea. Solo ingresa la distancia en kilómetros y obtén el resultado al instante. Además de ofrecer conversiones exactas entre km y mi, nuestro sitio incorpora funciones de geolocalización que te permiten conocer distancias y referencias de ubicación de manera más práctica y contextual. Es una solución ideal para viajeros, deportistas, conductores y estudiantes que necesitan convertir medidas y trabajar con información geográfica desde cualquier dispositivo, de forma sencilla y confiable</p>
     
     <h2>Conversor de unidades</h2>
 
-    <label for="valor"></label>
-    <input type="number" placeholder="Ingrese los kilometros"><br>
-    <button onclick="convertir">Convertir a millas</button><br><br>
+    <label for="valor">Kilómetros:</label>
+    <input type="number" id="valor" placeholder="Ingrese kilómetros"><br>
+    <button onclick="convertir">Convertir</button><br><br>
     <button onclick="verhistorial">Historial</button>
 
     <p id="resultado"></p>
 
-    <p id="historial"></p>
-    <div id=""></div>
+    <h2>Historial de Conversiones</h2>
+    <div id="historial"></div>
+
+    <p id="ubicacion"></p>
 
     <script src="script.js"></script>
-    <script src="worker.js"></script>
 </body>
 <footer>
     &copy;Todos los derechos: Reservados.
